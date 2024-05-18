@@ -1,0 +1,328 @@
+
+
+body {
+
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 100vh;
+  margin: 0;
+
+}
+
+
+.container {
+  width: 1200px;
+  position: fixed;
+  text-align: justify;
+
+}
+
+
+.ulMenu {
+  display: flex;
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+
+
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.colores{
+  list-style: circle;
+  color: red;
+}
+
+.olColor{
+ color: purple;
+}
+li {
+  flex-grow: 1;
+   transition: background-color 0.3s;
+}
+li:hover {
+  background-color: lightblue; /* Cambia el color de fondo al pasar el puntero */
+}
+p:hover{
+background-color: lightblue;
+}
+button {
+  width: 100%;
+  padding: 10px 27px;
+  border: none;
+  color: #fff;
+  background-color: #b81414; /* Color naranja oscuro para el fondo */
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  top: 0;
+}
+
+button:hover {
+   background-color: #ff8c00;
+  top: 0;
+}
+
+button:active {
+  transform: scale(0.95); /* Efecto de escala al hacer clic en el botón */
+}
+
+.thumbnail{
+
+  width: 140px;
+}
+.container2{
+
+  width: 1000px;
+  text-align: justify;
+
+}
+.imagen-flotante {
+  float: right;
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  width: 300px; /* Ajusta el ancho de la imagen */
+   height: auto; /* Deja que la altura se ajuste automáticamente */
+
+
+}
+h1 {
+
+  text-align: center;
+  margin-top: 55px;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+.subrayado {
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+}
+.h2- {
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+
+
+}
+header {
+    text-align: center;
+}
+
+
+
+
+
+.p- {
+      font-family: 'Cinzel';  /* Centrar el párrafo p */
+
+    }
+    .centrarImagen {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px
+  }
+
+  section ul {
+      list-style: none;
+      padding: 0;
+  }
+  section li {
+      margin-bottom: 10px;
+  }
+/*-------------------------------------------------------------------------*/
+ /* Espacio entre los enlaces */
+}
+  table {
+  width: 100%;
+  border-collapse: collapse;
+
+  padding: 20px;
+}
+.table-container {
+            width: 100%; /* Ancho de la tabla en relación a la página */
+            max-width: 999px;
+            padding: 20px;
+            max-height:50px;
+
+        }
+td {
+  padding: 10px;
+  /* Relleno para celdas de encabezado y datos */
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color:#192698; /* Azul oscuro */
+  color: white;
+font-weight: "bolder";
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+    color: black; /* Blanco para filas pares */
+}
+
+tr:nth-child(odd) {
+  background-color: #c1ffc1; /* Verde claro para filas impares */
+   color: black;
+}
+/*------------------------------------------------------------------*/
+
+.enlaces {
+  margin-top: 10px; /* Margen superior para separar del contenido anterior */
+  list-style: none; /* Quita los marcadores de la lista */
+  padding: 0; /* Quita el relleno por defecto de la lista */
+}
+
+.enlaces li {
+  margin-bottom: 5px;
+   /* Espaciado entre los elementos de la lista */
+}
+/*---------------------------------------------------------------------------------------------*/
+.enlaces-fila {
+    display: flex;
+   flex-direction: column;
+
+}
+
+.enlaces-fila a {
+    text-decoration: none;
+    color: #333;
+    margin: 4px;
+    transition: color 0.3s ease;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.seccion {
+  border: 1px solid #000; /* Borde continuo */
+  background: linear-gradient(to bottom, #f5f5f5, #ddd); /* Fondo en gradiente */
+  padding: 10px; /* Espacio interno */
+  margin-bottom: 20px; /* Margen inferior para separar secciones */
+}
+
+/* Estilos para las listas no numeradas */
+.seccion ul {
+  list-style: none; /* Elimina las viñetas por defecto */
+  padding-left: 20px; /* Añade un espacio para las viñetas personalizadas */
+}
+
+.seccion ul li {
+  position: relative; /* Para posicionar las viñetas personalizadas */
+  padding-left: 30px; /* Espacio a la izquierda para las viñetas */
+}
+
+.seccion ul li::before {
+  content: "•"; /* Símbolo de viñeta personalizada */
+  position: absolute;
+  left: 0;
+  color: #ff4500; /* Color de la viñeta */
+}
+
+/* Estilos para las listas numeradas */
+.seccion ol {
+  list-style-type: decimal; /* Tipo de numeración */
+  padding-left: 20px; /* Espacio para los números */
+}
+
+.seccion ol li {
+  color: #00bfff; /* Color de los números */
+}
+/*----------------------------------------------------*/
+ul{
+
+list-style: none;
+
+}
+.h2-hoja {
+  border: 2px solid black;
+  border-bottom: 2px solid darkgrey;
+   text-align: center;
+  color: white;
+  background-image: linear-gradient(to bottom, black, #474b4e);
+
+}
+/*-----------------------------------------------------------------------*/
+.colores2::before {   /*colores para los puntos de lista*/
+    content: "\2022"; /* Agrega el punto (•) como contenido antes del texto */
+    color: red; /* Cambia el color del punto a rojo */
+    margin-right: 0.5em; /* Espacio entre el punto y el texto */
+}
+/*-----------------------------------------------------------------------------*/
+.lista-numerada li::marker {
+  color:blue;
+}
+.lista-numerada li:hover {
+  background-color: lightblue;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+/*para el margen del nombre del remitente y estos*/
+
+.chat-container {
+  max-width: 999px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.message-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+ flex-direction: column;
+}
+
+#messageForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh; /* Altura del 100% del viewport */
+}
+
+#messageText {
+  height: 150px;
+  width: 100%;
+  resize: vertical;
+}
+#messageForm input[type="submit"] {
+  margin-top: 20px; /* espacio entre el enviar y el mensaje de texto*/
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+ display: inline-block;
+   margin-left: 10px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  margin-right: 10px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+.custom-textarea {
+  display: inline-block; /* Mostrar el textarea en línea */
+    vertical-align: middle;
+}

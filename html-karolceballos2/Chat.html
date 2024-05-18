@@ -1,0 +1,82 @@
+<html lang="en" dir="ltr">
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clases.css" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="robots" content="index, follow, noarchive">
+    <title>Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <div class="container">
+
+                 <ul class="ulMenu">
+          <li><button onclick="redireccionar('bienvenido.html')">Bienvenida</button></li>
+          <li><button onclick="redireccionar('DatosBIograficos.html')">Datos Biográficos</button></li>
+          <li><button onclick="redireccionar('HOjaDEvida.html')">Hoja de Vida</button></li>
+          <li><button onclick="redireccionar('MaterialDeInteres.html')">Material de Interés</button></li>
+          <li><button onclick="redireccionar('Chat.html')">Chatear</button></li>
+        </ul>
+
+
+       </div>
+
+  <div class="container2">
+       <h1 class="subrayado">Foro punk! </h1>
+ <div class="subrayado">
+<h2 class="h2-" class="subrayado">¡Expresa lo que piensas del punk con las personas!</h2>
+
+
+
+
+
+</div>
+<div class="chat-container">
+
+    <div class="message-box">
+      <form >
+        <div class "input-container">
+        <label for="Nombre">Nombre del Remitente:</label>
+        <input type="text" name="Nombre" id="Nombre"placeholder="Escribe tu nombre">
+        <span class="error-message" id="nombreError"></span>
+      </div>
+      </form>
+
+      <form id="messageForm">
+             <label for="messageText">Mensaje:</label>
+
+             <textarea name="messageText" id="messageText" class="custom-textarea"
+              placeholder="El mensaje no debe superar los 300 caracteres"></textarea>
+              <div class "input-container">
+             <span class="error-message" id="mensajeError"></span>
+            </div>
+       </form>
+               <div class="center-container">
+                <input type="button" value="Enviar" onclick="mostrarDatos()">
+              </div>
+        </div>
+        <div id="datosMostrados">
+        <!-- Aquí se mostrarán los datos del formulario -->
+          </div>
+
+        </div>
+
+
+
+
+
+<script src="clases.js"></script>
+
+
+
+
+  </body>
+</html>
